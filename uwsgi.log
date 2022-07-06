@@ -1,0 +1,154 @@
+*** Starting uWSGI 2.0.20 (32bit) on [Tue Jul  5 14:52:02 2022] ***
+compiled with version: 10.2.1 20210110 on 06 October 2021 06:05:19
+os: Linux-5.15.32-v7l+ #1538 SMP Thu Mar 31 19:39:41 BST 2022
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/dpra
+detected binary path: /home/pi/.local/bin/uwsgi
+chdir() to /home/pi/dpra
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 60615
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/pi/dpra/dpra.sock fd 3
+Python version: 3.9.2 (default, Mar 12 2021, 04:06:34)  [GCC 10.2.1 20210110]
+PEP 405 virtualenv detected: /home/pi/dpra/web
+Set PythonHome to /home/pi/dpra/web
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xbd8520
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 64408 bytes (62 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xbd8520 pid: 2674 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2674, cores: 1)
+Gracefully killing worker 1 (pid: 2674)...
+VACUUM: unix socket /home/pi/dpra/dpra.sock removed.
+*** Starting uWSGI 2.0.20 (32bit) on [Tue Jul  5 19:50:25 2022] ***
+compiled with version: 10.2.1 20210110 on 06 October 2021 06:05:19
+os: Linux-5.15.32-v7l+ #1538 SMP Thu Mar 31 19:39:41 BST 2022
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/dpra
+detected binary path: /home/pi/dpra/web/bin/uwsgi
+chdir() to /home/pi/dpra
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 60615
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/pi/dpra/dpra.sock fd 3
+Python version: 3.9.2 (default, Mar 12 2021, 04:06:34)  [GCC 10.2.1 20210110]
+PEP 405 virtualenv detected: /home/pi/dpra/web
+Set PythonHome to /home/pi/dpra/web
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1606b48
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 64408 bytes (62 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1606b48 pid: 2415 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2415, cores: 1)
+*** Starting uWSGI 2.0.19.1-debian (32bit) on [Tue Jul  5 20:18:10 2022] ***
+compiled with version: 10.2.1 20210110 on 11 June 2021 09:08:33
+os: Linux-5.15.32-v7l+ #1538 SMP Thu Mar 31 19:39:41 BST 2022
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/dpra
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/pi/dpra
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 60615
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/pi/dpra/dpra.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 64416 bytes (62 KB) for 1 cores
+*** Operational MODE: single process ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (and the only) (pid: 2797, cores: 1)
+*** Starting uWSGI 2.0.19.1-debian (32bit) on [Tue Jul  5 20:22:08 2022] ***
+compiled with version: 10.2.1 20210110 on 11 June 2021 09:08:33
+os: Linux-5.15.32-v7l+ #1538 SMP Thu Mar 31 19:39:41 BST 2022
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/dpra
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/pi/dpra
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 60615
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/pi/dpra/dpra.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 64416 bytes (62 KB) for 1 cores
+*** Operational MODE: single process ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (and the only) (pid: 2850, cores: 1)
+*** Starting uWSGI 2.0.19.1-debian (32bit) on [Tue Jul  5 20:34:05 2022] ***
+compiled with version: 10.2.1 20210110 on 11 June 2021 09:08:33
+os: Linux-5.15.32-v7l+ #1538 SMP Thu Mar 31 19:39:41 BST 2022
+nodename: raspberrypi
+machine: armv7l
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/pi/dpra
+detected binary path: /usr/bin/uwsgi-core
+chdir() to /home/pi/dpra
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 60615
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/pi/dpra/dpra.sock fd 3
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 64416 bytes (62 KB) for 1 cores
+*** Operational MODE: single process ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI worker 1 (and the only) (pid: 3434, cores: 1)
+VACUUM: unix socket /home/pi/dpra/dpra.sock removed.
+Gracefully killing worker 1 (pid: 3434)...
+unlink(): No such file or directory [core/uwsgi.c line 1662]
+unlink(): No such file or directory [core/uwsgi.c line 1662]
+unlink(): No such file or directory [core/uwsgi.c line 1662]
